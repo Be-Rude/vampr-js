@@ -50,6 +50,13 @@ class Vampire {
 
   // Returns the vampire object with that name, or null if no vampire exists with that name
   vampireWithName(name) {
+    for (const child of name) {
+      if (child) {
+        return (child);
+        
+      } else
+      return null;
+    }
     
   }
 
